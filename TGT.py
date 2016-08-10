@@ -12,7 +12,7 @@
 import getpass
 import requests
 import string
-import urllib3.contrib.pyopenssl
+import urllib3.contrib.pyopenssl # Necessary to get around Python 3 ssl errors when calling an https endpoint
 from parse import *
 from lxml import etree
 
